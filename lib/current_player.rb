@@ -9,8 +9,8 @@ end
 
 def current_player(board)
   if (turn_count % 2 == 0)
-    true
+    'X'
   else
-    false
+    'O'
   end
 end
